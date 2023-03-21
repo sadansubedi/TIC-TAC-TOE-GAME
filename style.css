@@ -1,0 +1,52 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background:rgb(95, 32, 125); 
+    position: relative;  
+}
+.wrapper{
+    display: grid;
+    text-align: center;
+    place-items: center;
+    margin-top: -17px;;
+}
+.title{
+    font-size: 70px;
+    color: white;
+    margin-top: 12px;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    color: aliceblue;
+    margin-top: -50px;
+}
+.cell{
+    width: 150px;
+    height: 150px;
+    background-color: black;
+    border: 1px solid green;
+    cursor: pointer;
+    font-size: 66px;
+    padding-top: 16px;
+
+}
+.status{
+    font-size: 55px;
+    color: white;
+    margin: 6px auto 20px auto;
+    padding-right: 35px;
+}
+
+.restart{
+    font-size: 45px;
+    color: aliceblue;
+    background-color: rgb(95, 32, 125);
+    cursor: pointer;
+}
+.loserstatus{
+    font-size: 35px;
+    color: red;
+}
+.message{
+    display: flex;
+}
